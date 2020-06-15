@@ -1,7 +1,7 @@
 import pandas as pd
 
 columns = pd.read_csv('data/avoidance_ch.csv', sep=';', nrows=0).columns
-#rows = pd.read_csv('data/avoidance_ch.csv', sep=';', nrows=0).rows
+
 
 f = {col : lambda x : (x.replace(",", ".")) for col in columns}
 df = pd.read_csv('data/avoidance_ch.csv', sep=';',converters=f)
