@@ -34,5 +34,4 @@ for i in range(0,len(df.columns)):
     
 
 print('tabcol1: ', tabcol1)
-
 print('tabcol2: ', tabcol2)
