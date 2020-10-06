@@ -1,2 +1,4 @@
 *.7z
 *.csv
+venv/
+*.png
